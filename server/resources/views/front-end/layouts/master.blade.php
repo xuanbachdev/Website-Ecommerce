@@ -25,7 +25,7 @@
 
 </head>
 <body>
-{{--@include('front-end.components.preloader')--}}
+@include('front-end.components.preloader')
 @include('front-end.components.header')
 @yield('content')
 @include('front-end.components.footer')
